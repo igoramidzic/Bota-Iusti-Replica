@@ -1,8 +1,8 @@
 body {
-  height: 2000px; }
+  height: 4000px; }
 
 .content {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .mediumPadding {
@@ -27,7 +27,7 @@ body {
     height: 36px;
     background-color: transparent;
     color: #fff;
-    border: 2px solid #ffffff;
+    border: 3px solid #fff;
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
     outline: none;
@@ -100,7 +100,7 @@ body {
 @media (max-width: 991px) {
   .short-description .container {
     padding: 100px 0px 90px 0px; } }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .short-description {
     background: #f5f2ed; }
     .short-description .container {
@@ -112,5 +112,68 @@ body {
           font-size: 25px; }
         .short-description .container .description p {
           font-size: 14px; } }
+.dribbble-work {
+  padding: 85px 0px 30px 0px;
+  font-family: "Josefin Slab", serif; }
+  .dribbble-work .main-title {
+    color: #666666;
+    font-size: 45px;
+    text-align: center; }
+  .dribbble-work .content ul li {
+    display: block;
+    position: relative; }
+    .dribbble-work .content ul li a img {
+      float: left;
+      max-height: 212.25px;
+      max-width: 283px;
+      margin: 1px; }
+  .dribbble-work .contact-info {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 741px; }
+    .dribbble-work .contact-info p {
+      font-family: "Josefin Slab", serif;
+      text-align: center;
+      font-size: 22px;
+      color: #666666; }
+    .dribbble-work .contact-info a {
+      color: #30a7b7;
+      font-weight: bold;
+      border-bottom: solid 3px #30a7b7; }
+      .dribbble-work .contact-info a:hover {
+        text-decoration: none;
+        border-bottom-color: #c2c2c2; }
+
+@media (max-width: 1199px) {
+  .dribbble-work .content ul li a img {
+    max-height: 174.75px;
+    max-width: 233px; } }
+@media (max-width: 768px) {
+  .dribbble-work .content ul li a img {
+    max-height: 264.75px;
+    max-width: 353px; } }
+.stats {
+  background: url(../img/bg-stats.jpg) #f5f2ed top center no-repeat fixed;
+  background-size: cover; }
+  .stats .container {
+    padding: 170px 0px 160px 0px; }
+    .stats .container .row {
+      color: #fff;
+      text-align: center; }
+      .stats .container .row .ic-box-rn {
+        display: block;
+        line-height: 126px;
+        background: url(../img/border.svg);
+        background-repeat: no-repeat;
+        height: 126px;
+        width: 126px;
+        margin: 0 auto;
+        font-size: 70px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+      .stats .container .row .stats-name {
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
