@@ -1,0 +1,82 @@
+body {
+  height: 2000px; }
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.mediumPadding {
+  height: 100px; }
+
+.navbar {
+  height: 100px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s; }
+  .navbar .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .navbar .left img {
+    width: 193px; }
+  .navbar .right button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    height: 36px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+    outline: none;
+    transition: all 0.25s; }
+    .navbar .right button:hover {
+      color: #75cbc5;
+      background-color: #fff; }
+
+.titleAndWorkspace {
+  background: #52baca;
+  background: -webkit-linear-gradient(left top, #52baca, #88d1be);
+  background: -o-linear-gradient(bottom right, #52baca, #88d1be);
+  background: -moz-linear-gradient(bottom right, #52baca, #88d1be);
+  background: linear-gradient(to bottom right, #52baca, #88d1be); }
+  .titleAndWorkspace .header {
+    margin: 0px 0px 55px 0px;
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+    color: #4c9ba1; }
+  .titleAndWorkspace .img-container {
+    max-width: 970px; }
+    .titleAndWorkspace .img-container img {
+      display: block;
+      margin: 0 auto;
+      height: auto;
+      width: auto; }
+
+.services-section {
+  padding: 85px 0px 30px 0px;
+  font-family: "Josefin Slab", serif; }
+  .services-section .main-title {
+    color: #666666;
+    font-size: 45px;
+    text-align: center; }
+  .services-section .service {
+    text-align: center; }
+    .services-section .service img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+    .services-section .service .title {
+      color: #666666;
+      font-size: 23px; }
+    .services-section .service .description {
+      margin: 0 auto;
+      max-width: 600px;
+      color: #8e9399;
+      font-size: 15px;
+      padding: 0px 20px 20px 20px; }
+
+/*# sourceMappingURL=style.css.map */
