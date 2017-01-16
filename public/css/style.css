@@ -13,7 +13,7 @@ body {
   border-radius: 0px;
   background-color: transparent;
   border: none;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .navbar .container {
     position: relative;
     top: 50%;
@@ -21,7 +21,7 @@ body {
   .navbar .left img {
     width: 193px; }
   .navbar .right button {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
     letter-spacing: 1.5px;
     height: 36px;
@@ -31,7 +31,7 @@ body {
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
     outline: none;
-    transition: all .25s; }
+    transition: all 0.25s; }
     .navbar .right button:hover {
       color: #75cbc5;
       background-color: #fff; }
@@ -43,9 +43,8 @@ body {
   background: -moz-linear-gradient(bottom right, #52baca, #88d1be);
   background: linear-gradient(to bottom right, #52baca, #88d1be); }
   .titleAndWorkspace .header {
-    margin: 0px 0px 55px 0px;
     text-align: center;
-    font-family: 'Cookie', cursive;
+    font-family: "Cookie", cursive;
     font-size: 50px;
     color: #4c9ba1; }
   .titleAndWorkspace .img-container {
@@ -58,7 +57,7 @@ body {
 
 .services-section {
   padding: 85px 0px 30px 0px;
-  font-family: 'Josefin Slab', serif; }
+  font-family: "Josefin Slab", serif; }
   .services-section .main-title {
     color: #666666;
     font-size: 45px;
@@ -78,5 +77,40 @@ body {
       color: #8e9399;
       font-size: 15px;
       padding: 0px 20px 20px 20px; }
+
+.short-description {
+  background: url(../img/bota-iusti.jpg) #f5f2ed top center no-repeat fixed;
+  background-size: cover; }
+  .short-description .container {
+    padding: 170px 0px 160px 0px; }
+    .short-description .container .description {
+      padding: 20px;
+      color: #666666;
+      font-family: "Raleway", sans-serif;
+      letter-spacing: 2px; }
+      .short-description .container .description .title {
+        font-weight: bold;
+        font-size: 35px; }
+      .short-description .container .description p {
+        font-size: 16px; }
+
+@media (max-width: 1199px) {
+  .short-description .container {
+    padding: 150px 0px 140px 0px; } }
+@media (max-width: 991px) {
+  .short-description .container {
+    padding: 100px 0px 90px 0px; } }
+@media (max-width: 767px) {
+  .short-description {
+    background: #f5f2ed; }
+    .short-description .container {
+      padding: 50px 0px 40px 0px; }
+      .short-description .container .description {
+        text-align: center; }
+        .short-description .container .description .title {
+          font-weight: bold;
+          font-size: 25px; }
+        .short-description .container .description p {
+          font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */

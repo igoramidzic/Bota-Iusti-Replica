@@ -51,7 +51,6 @@ body
   background: -moz-linear-gradient(bottom right, #52baca, #88d1be) /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #52baca, #88d1be) /* Standard syntax */
   .header
-    margin: 0px 0px 55px 0px
     text-align: center
     font-family: 'Cookie', cursive
     font-size: 50px
@@ -88,3 +87,43 @@ body
       color: rgb(142, 147, 153)
       font-size: 15px
       padding: 0px 20px 20px 20px
+
+.short-description
+  background: url(../img/bota-iusti.jpg) #f5f2ed top center no-repeat fixed
+  background-size: cover
+  .container
+    padding: 170px 0px 160px 0px
+    .description
+      padding: 20px
+      color: rgb(102, 102, 102)
+      font-family: 'Raleway', sans-serif
+      letter-spacing: 2px
+      .title
+        font-weight: bold
+        font-size: 35px
+      p
+        font-size: 16px
+
+@media (max-width: 1199px)
+  .short-description
+    .container
+      padding: 150px 0px 140px 0px
+@media (max-width: 991px)
+  .short-description
+    .container
+      padding: 100px 0px 90px 0px
+@media (max-width: 767px)
+  .short-description
+    background: #f5f2ed
+    .container
+      padding: 50px 0px 40px 0px
+      .description
+        text-align: center
+        .title
+          font-weight: bold
+          font-size: 25px
+        p
+          font-size: 14px
+
+
+
