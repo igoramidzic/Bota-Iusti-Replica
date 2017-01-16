@@ -13,7 +13,7 @@ body {
   border-radius: 0px;
   background-color: transparent;
   border: none;
-  transition: all 0.5s; }
+  transition: all .5s; }
   .navbar .container {
     position: relative;
     top: 50%;
@@ -21,7 +21,7 @@ body {
   .navbar .left img {
     width: 193px; }
   .navbar .right button {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     letter-spacing: 1.5px;
     height: 36px;
@@ -31,7 +31,7 @@ body {
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
     outline: none;
-    transition: all 0.25s; }
+    transition: all .25s; }
     .navbar .right button:hover {
       color: #75cbc5;
       background-color: #fff; }
@@ -45,7 +45,7 @@ body {
   .titleAndWorkspace .header {
     margin: 0px 0px 55px 0px;
     text-align: center;
-    font-family: "Cookie", cursive;
+    font-family: 'Cookie', cursive;
     font-size: 50px;
     color: #4c9ba1; }
   .titleAndWorkspace .img-container {
@@ -58,7 +58,7 @@ body {
 
 .services-section {
   padding: 85px 0px 30px 0px;
-  font-family: "Josefin Slab", serif; }
+  font-family: 'Josefin Slab', serif; }
   .services-section .main-title {
     color: #666666;
     font-size: 45px;
