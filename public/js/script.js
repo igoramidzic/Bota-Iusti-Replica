@@ -17,4 +17,13 @@ $(document).ready(function(){
             $('.navbar').css('border','1px solid rgb(45, 156, 171');
         }
     });
+
+    // $(window).on('resize', function(){
+    //     var win = $(this); //this = window
+    //     if (win.width() <= 760) {
+    //         $('.navbar').removeClass('navbar-fixed-top');
+    //     } else {
+    //         $('.navbar').addClass('navbar-fixed-top');
+    //     }
+    // });
 });
